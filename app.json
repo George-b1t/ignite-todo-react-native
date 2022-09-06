@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "todo",
+    "owner": "george-b1t",
     "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.georgeb1t.todo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f560207b-06da-46ad-a596-d0a01d937f52"
+      }
     }
   }
 }
